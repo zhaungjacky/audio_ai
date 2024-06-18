@@ -1,0 +1,126 @@
+html{
+  transition: transform 330ms ease-in-out;
+}
+
+.App {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #00000017,
+    #00000018,
+  );
+  width: 100vw;
+  height: 100%;
+}
+
+.css-heg063-MuiTabs-flexContainer{
+  display: flex;
+  justify-content: center;
+}
+
+a:link{
+  text-decoration: none;
+  color: "black";
+  background: "none";
+}
+
+#outlined-language-settings-input,#outlined-language-settings-output{
+  color: aliceblue;
+}
+
+/* #creat_note_textarea{
+  color: white
+}
+
+#input_tag{
+  color: whitesmoke;
+}
+
+#title_input{
+  text-align: center;
+  font-size: 1.2rem;
+  border: 0px solid white;
+} */
+
+
+
+
+
+/* #accountId:hover:after{
+  content:"账户";
+  position:absolute;
+  top: 0;
+  left:50px;
+  transform: translate(-50%,10%);
+  font-size: 0.8rem;
+
+}
+#uploadId:hover:after{
+  content:"上传";
+  position:absolute;
+  top: 0;
+  left:50px;
+  transform: translate(-50%,10%);
+  font-size: 0.8rem;
+ 
+}
+
+#settingId:hover:before{
+  content:"设置";
+  position:absolute;
+  top: 0;
+  right:40px;
+  transform: translate(-50%,10%);
+  font-size: 0.8rem;
+ 
+}
+#rewriteId:hover:before{
+  content:"重写";
+  position:absolute;
+  top: 0;
+  right:40px;
+  transform: translate(-50%,10%);
+  font-size: 0.8rem;
+ 
+} */
+
+.step-video{
+  height:auto;
+  border-radius: 20px;
+}
+
+.footer-tm{
+  font-size: 0.7rem;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
